@@ -1,5 +1,3 @@
-import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
-
 public class Main {
     public static void main(String[] args) {
         int clientOS = 0;
@@ -19,7 +17,6 @@ public class Main {
             }
         }
         int year = 2021;
-        int initialYear = 1584;
         if((year % 4 == 0) && year % 100 > 0){
             System.out.println(year + " год является високосным.");
         }else if(year % 100 == 0 && year % 400 == 0){
